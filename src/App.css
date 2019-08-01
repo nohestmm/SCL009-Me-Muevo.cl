@@ -1,0 +1,17 @@
+.App {
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #f2f2f2;
+    height: 100%;
+}
+
+.content {
+    background-color: #f4f4f4;
+}
+
+.ĺist-group {
+    padding: 0;
+    background-color: #f2f2f2;
+}
