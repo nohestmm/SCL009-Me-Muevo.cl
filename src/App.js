@@ -28,7 +28,7 @@ class App extends Component {
             </nav>
           </header>
           <div className="App row">
-            <div className="sidebar col-3 p-2px" >
+            <div className="sidebar col-sm-12 col-md-3" >
 
               <div className="input-search"><input
                 type="search"
@@ -45,7 +45,7 @@ class App extends Component {
 
               </ul>
             </div>
-            <div className="content col-9">
+            <div className="content col-sm-12 col-md-9">
               <Switch>
                 <Route exact path='/' component={TemplateHome} />
                 <Route exact path='/artritis-reumatoide' component={TemplateInfo} />

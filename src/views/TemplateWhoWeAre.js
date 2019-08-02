@@ -4,7 +4,7 @@ const TemplateWhoWheAre = () => {
     
         return (
 <div>
-    <h1> Info Quienes Somos </h1>
+    <h1>Quiénes Somos</h1>
 </div>
         )
     

@@ -4,7 +4,7 @@ const TemplateLaw = () => {
     
         return (
 <div>
-    <h1> Info Ley R-SOTO </h1>
+    <h1>Ley Ricarte SOTO</h1>
 </div>
         )
     
