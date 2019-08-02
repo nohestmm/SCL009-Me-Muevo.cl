@@ -4,7 +4,7 @@ const TemplateRegister = () => {
     
         return (
 <div>
-    <h1> Info Registro </h1>
+    <h1>Regístrate</h1>
 </div>
         )
     

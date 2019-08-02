@@ -4,7 +4,7 @@ const TemplateNews = () => {
    
         return (
 <div>
-    <h1> Info News </h1>
+    <h1>Noticias Recientes</h1>
 </div>
         )
     
