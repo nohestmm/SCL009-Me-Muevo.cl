@@ -1,18 +1,46 @@
-/* .App {
+.App {
     height: 100vh;
-} */
+}
 
-.sidebar {
-    background-color: #f2f2f2;
+.btn {
+    background-color: #00519F;
+    width: 140px;
+    height: 40px;
+    padding: 0px
+}
+
+.icon{
+    width: 40px; 
+    height: 40px;
+    margin: 5px
+}
+
+.rrss{
+    margin:4px;
+    display: flex;
+    justify-content: center;
 }
 
 .content {
-    background-color: #f4f4f4;
+    background-color: #ffffff;
+    padding: 5px;
 }
 
-.ĺist-group {
-    padding: 0;
-    background-color: #f2f2f2;
+.navbar-toggler-icon{
+    width: 40px;
+    height: 40px;
+    border-color: #00519F;
+}
+    
+.list-sidebar .list-group-item-action {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #f8f9fa;
+    border: 1px solid rgba(0,0,0,.125);
+    color: black;
+    border-radius: 0px;
 }
 
 .parraghaf {
@@ -22,3 +50,41 @@
 .infoTemplateHome {
     display: flex;
 }
+
+/* Link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: black;
+} */
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: black;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+
