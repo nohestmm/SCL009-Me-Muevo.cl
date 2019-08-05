@@ -4,7 +4,7 @@ const TemplateInfo = () => {
     
         return (
 <div>
-    <h1> Info disease </h1>
+    <h1>Información Disease </h1>
 </div>
         )
     
