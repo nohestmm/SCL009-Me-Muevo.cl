@@ -18,27 +18,23 @@ class App extends Component {
       <>
         <BrowserRouter>
 
-          <header>
-
-
-          </header>
           <div className="App row">
             <div className="col-sm-12 col-md-3">
-              <nav class="navbar navbar-light bg-light">
-                <a className="navbar-brand" href>
+              <nav className="navbar navbar-light bg-light">
+                {/* <a className="navbar-brand" href> */}
                   <div className="logo">
                     <Link to="/"><img src="http://www.memuevo.cl/wp-content/themes/newmemuevo/img/logo.png" width="90" height="70" className="d-inline-block align-top" alt="logo de la fundación" /></Link>
                   </div>
-                </a>
-                <button class="navbar-toggler rotate" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+                {/* </a> */}
+                <button className="navbar-toggler rotate" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span className="navbar-toggler-icon"></span>
                 </button>
-              </nav>
+              
 
-              <div class="pos-f-t">
-                <div class="collapse" id="navbarToggleExternalContent">
-                  <div class="bg-light">
-                    <h2 class="text-dark">Fundación Me Muevo</h2>
+              <div className="pos-f-t">
+                <div className="nav-collapse" id="navbarToggleExternalContent">
+                  <div className="bg-light">
+                    <h2 className="text-dark">Fundación Me Muevo</h2>
 
                     <Link to="/quienes-somos"><h3 className="list-group-item list-group-item-action">¿Quiénes Somos?</h3></Link>
                     <Link to="/artritis-reumatoide"><h3 className="list-group-item list-group-item-action">Artritis reumatoide</h3></Link>
@@ -59,7 +55,7 @@ class App extends Component {
                   </div>
                 </div>
               </div>
-
+              </nav>
 
 
 
