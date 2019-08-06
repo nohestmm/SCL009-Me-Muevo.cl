@@ -14,6 +14,9 @@
     height: 40px;
     margin: 5px
 }
+.pos-f-t{
+    height: 100%;
+}
 
 .rrss{
     margin:4px;
@@ -26,11 +29,7 @@
     padding: 5px;
 }
 
-.navbar-toggler-icon{
-    width: 40px;
-    height: 40px;
-    border-color: #00519F;
-}
+
     
 .list-sidebar .list-group-item-action {
     position: relative;
@@ -50,12 +49,6 @@
 .infoTemplateHome {
     display: flex;
 }
-
-/* Link{
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: black;
-} */
 
 h1{
     font-family: 'Roboto', sans-serif;

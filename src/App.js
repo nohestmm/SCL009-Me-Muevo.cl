@@ -7,7 +7,6 @@ import TemplateNews from './views/TemplateNews';
 import TemplateRegister from './views/TemplateRegister';
 import TemplateWhoWeAre from './views/TemplateWhoWeAre';
 import TemplateHome from './views/TemplateHome';
-//import Navbar from './components/Navbar'
 import './App.css';
 
 
@@ -26,13 +25,13 @@ class App extends Component {
                     <Link to="/"><img src="http://www.memuevo.cl/wp-content/themes/newmemuevo/img/logo.png" width="90" height="70" className="d-inline-block align-top" alt="logo de la fundación" /></Link>
                   </div>
                 {/* </a> */}
-                <button className="navbar-toggler rotate" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
                 </button>
-              
+                </nav>
 
               <div className="pos-f-t">
-                <div className="nav-collapse" id="navbarToggleExternalContent">
+                <div className="nav-collapse " id="navbarToggleExternalContent">
                   <div className="bg-light">
                     <h2 className="text-dark">Fundación Me Muevo</h2>
 
@@ -55,11 +54,7 @@ class App extends Component {
                   </div>
                 </div>
               </div>
-              </nav>
-
-
-
-
+              
             </div>
             <div className="content col-sm-12 col-md-9">
               <Switch>
