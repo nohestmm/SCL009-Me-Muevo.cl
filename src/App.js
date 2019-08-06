@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Switch, Route} from 'react-router-dom';
 /*Templates && Components*/
 import TemplateInfo from './views/TemplateInfo';
 import TemplateLaw from './views/TemplateLaw';
@@ -9,26 +9,21 @@ import TemplateWhoWeAre from './views/TemplateWhoWeAre';
 import TemplateHome from './views/TemplateHome';
 //import Navbar from './components/Navbar'
 import './App.css';
+import Navbartemplate from './components/Navbartemplate';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 class App extends Component {
   render() {
     return (
       <>
+
         <BrowserRouter>
-
-          <header>
-
-            <nav className="navbar navbar-light bg-light navbar-expand-lg ">
-              <a className="navbar-brand" href>
-                <div className="logo">
-                  <Link to="/"><img src="http://www.memuevo.cl/wp-content/themes/newmemuevo/img/logo.png" width="90" height="70" className="d-inline-block align-top" alt="" /></Link></div>
-
-              </a>
-            </nav>
-          </header>
-          <div className="App row">
-            <div className="sidebar col-sm-12 col-md-3" >
+                  <div >
+                  <Navbartemplate/>
+            {/* <div  >
 
               <div className="input-search"><input
                 type="search"
@@ -36,16 +31,16 @@ class App extends Component {
                 placeholder="🔎 Buscar" />
               </div>
               <ul className="ĺist-group">
-                <li className="list-group-item"><Link to="/artritis-reumatoide">Artritis reumatoide</Link></li>
+              <li className="list-group-item"><Link to="/">Inicio</Link></li>
                 <li className="list-group-item"><Link to="/ley-ricarte-soto">Ley Ricarte Soto</Link></li>
                 <li className="list-group-item"><Link to="/noticias">Noticias</Link></li>
                 <li className="list-group-item"><Link to="/registro">Registro de Pacientes</Link></li>
-                <li className="list-group-item"><Link to="/quienes-somos">Quienes Somos</Link></li>
+                <li className="list-group-item"><Link to="/quienes-somos">Quiénes Somos</Link></li>
 
 
               </ul>
-            </div>
-            <div className="content col-sm-12 col-md-9">
+            </div> */}
+            <div>
               <Switch>
                 <Route exact path='/' component={TemplateHome} />
                 <Route exact path='/artritis-reumatoide' component={TemplateInfo} />
