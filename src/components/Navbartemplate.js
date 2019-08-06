@@ -8,10 +8,10 @@ class Navbartemplate extends React.Component {
     return (
 
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="/">
+        <Navbar.Brand><Link to="/">
           <img src="http://www.memuevo.cl/wp-content/themes/newmemuevo/img/logo.png"
             width="90" height="70" className="d-inline-block align-top" alt="">
-          </img>
+          </img></Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
