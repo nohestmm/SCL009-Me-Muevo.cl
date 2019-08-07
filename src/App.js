@@ -7,6 +7,7 @@ import TemplateNews from './views/TemplateNews';
 import TemplateRegister from './views/TemplateRegister';
 import TemplateWhoWeAre from './views/TemplateWhoWeAre';
 import TemplateHome from './views/TemplateHome';
+import TemplateGes from './views/TemplateGes';
 //import { Row , Col } from 'react-bootstrap';
 import './App.css';
 import Navbarmobile from './components/Navbarmobile';
@@ -39,6 +40,7 @@ class App extends Component {
                 <Route exact path='/' component={TemplateHome} />
                 <Route exact path='/artritis-reumatoide' component={TemplateInfo} />
                 <Route exact path='/ley-ricarte-soto' component={TemplateLaw} />
+                <Route exact path='/ges' component={TemplateGes} />
                 <Route exact path='/noticias' component={TemplateNews} />
                 <Route exact path='/registro' component={TemplateRegister} />
                 <Route exact path='/quienes-somos' component={TemplateWhoWeAre} />

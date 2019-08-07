@@ -21,7 +21,7 @@ class Navbarmobile extends React.Component {
             <Nav ><Link to="/quienes-somos">Quiénes Somos</Link></Nav>
             <Nav ><Link to="/">Artritis Remautoide</Link></Nav>
             <Nav ><Link to="/ley-ricarte-soto">Ley Ricarte Soto</Link></Nav>
-            <Nav ><Link to="/ley-ricarte-soto">Ges/Auge</Link></Nav>
+            <Nav ><Link to="/ges">Ges/Auge</Link></Nav>
              <Nav ><Link to="/registro">Registro de Pacientes</Link></Nav>
              <Nav ><Link to="/noticias">Noticias y Eventos</Link></Nav>
            
