@@ -8,7 +8,6 @@ class Navbarmobile extends React.Component {
 
   render() {
     return (
-
       <Navbar bg="light" expand="lg">
         <Navbar.Brand><Link to="/">
           <img src= {logo}
