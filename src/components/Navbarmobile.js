@@ -1,26 +1,31 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
+import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
+import logo from '../image/logo.png';
 
-class Navbartemplate extends React.Component {
+
+class Navbarmobile extends React.Component {
 
   render() {
     return (
 
       <Navbar bg="light" expand="lg">
         <Navbar.Brand><Link to="/">
-          <img src="http://www.memuevo.cl/wp-content/themes/newmemuevo/img/logo.png"
+          <img src= {logo}
             width="90" height="70" className="d-inline-block align-top" alt="">
           </img></Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav><Link to="/">Inicio</Link></Nav>
-            <Nav><Link to="/ley-ricarte-soto">Ley Ricarte Soto</Link></Nav>
-            <Nav><Link to="/noticias">Noticias</Link></Nav>
-            <Nav><Link to="/registro">Registro de Pacientes</Link></Nav>
-            <Nav><Link to="/quienes-somos">Quiénes Somos</Link></Nav>
+            <Nav ><Link to="/quienes-somos">Quiénes Somos</Link></Nav>
+            <Nav ><Link to="/">Artritis Remautoide</Link></Nav>
+            <Nav ><Link to="/ley-ricarte-soto">Ley Ricarte Soto</Link></Nav>
+            <Nav ><Link to="/ley-ricarte-soto">Ges/Auge</Link></Nav>
+             <Nav ><Link to="/registro">Registro de Pacientes</Link></Nav>
+             <Nav ><Link to="/noticias">Noticias y Eventos</Link></Nav>
+           
+            
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="🔎 Buscar" className="mr-sm-2" />
@@ -32,4 +37,4 @@ class Navbartemplate extends React.Component {
   }
 }
 
-export default Navbartemplate;
+export default Navbarmobile;

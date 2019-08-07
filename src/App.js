@@ -7,10 +7,10 @@ import TemplateNews from './views/TemplateNews';
 import TemplateRegister from './views/TemplateRegister';
 import TemplateWhoWeAre from './views/TemplateWhoWeAre';
 import TemplateHome from './views/TemplateHome';
-//import Navbar from './components/Navbar'
-import './App.css';
-import Navbartemplate from './components/Navbartemplate';
 
+import './App.css';
+// import Navbarmobile from './components/Navbarmobile';
+import Menudesktop from './components/Menudesktop'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -22,24 +22,12 @@ class App extends Component {
 
         <BrowserRouter>
                   <div >
-                  <Navbartemplate/>
-            {/* <div  >
-
-              <div className="input-search"><input
-                type="search"
-                className="form-control"
-                placeholder="🔎 Buscar" />
-              </div>
-              <ul className="ĺist-group">
-              <li className="list-group-item"><Link to="/">Inicio</Link></li>
-                <li className="list-group-item"><Link to="/ley-ricarte-soto">Ley Ricarte Soto</Link></li>
-                <li className="list-group-item"><Link to="/noticias">Noticias</Link></li>
-                <li className="list-group-item"><Link to="/registro">Registro de Pacientes</Link></li>
-                <li className="list-group-item"><Link to="/quienes-somos">Quiénes Somos</Link></li>
-
-
-              </ul>
-            </div> */}
+                    
+                  {/* <Navbarmobile/> */}
+                <Menudesktop/>
+                 </div>
+               
+            
             <div>
               <Switch>
                 <Route exact path='/' component={TemplateHome} />
@@ -52,7 +40,8 @@ class App extends Component {
 
             </div>
 
-          </div>
+
+         
 
         </BrowserRouter>
       </>
