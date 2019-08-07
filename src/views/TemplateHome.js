@@ -1,6 +1,6 @@
 import React from 'react'
 import '../views/components.css';
-// import { Row , Col } from 'react-bootstrap';
+import { Row , Col } from 'react-bootstrap';
 
 
 const TemplateHome = () => {
@@ -10,7 +10,9 @@ const TemplateHome = () => {
            
             <h1>Bienvenido a Me muevo</h1>
             <section>
-                
+              <Row> 
+            
+                  <Col xs = {12} md ={6}>  
                 <iframe className="iframe-video"
                     src="https://www.youtube.com/embed/t485RIj4-og" 
                     frameBorder="0" 
@@ -20,7 +22,9 @@ const TemplateHome = () => {
                     gyroscope; 
                     picture-in-picture" 
                     allowFullScreen title="video"/>
-          
+            </Col>
+
+            <Col  xs = {12} md ={6}>
                 <div>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                         Magnam laboriosam minus architecto nulla id consequatur eos 
@@ -34,7 +38,8 @@ const TemplateHome = () => {
                          dolor magnam in assumenda tempora dolorum magni eaque?
                         </p>
                 </div>
-               
+                </Col>
+               </Row>
             </section>
         </div>
     )

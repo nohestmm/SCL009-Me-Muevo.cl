@@ -9,7 +9,7 @@ import TemplateWhoWeAre from './views/TemplateWhoWeAre';
 import TemplateHome from './views/TemplateHome';
 import { Row , Col } from 'react-bootstrap';
 import './App.css';
-// import Navbarmobile from './components/Navbarmobile';
+import Navbarmobile from './components/Navbarmobile';
 import Menudesktop from './components/Menudesktop'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,14 +21,15 @@ class App extends Component {
       <>
 
         <BrowserRouter>
+        
                   <div >
-                    
-                  {/* <Navbarmobile/> */}
+                    <Row>
+                  <Navbarmobile/>
                 <Menudesktop/>
-                 </div>
+               
                
           
-              <Col  xs={12} md={9}>
+              <Col xs= {12} md ={9}>
             
               <Switch>
                 <Route exact path='/' component={TemplateHome} />
@@ -40,11 +41,11 @@ class App extends Component {
               </Switch>
 
           
-            </Col>
-         
+            </Col> 
+            </Row>
+           </div>
 
-         
-
+        
         </BrowserRouter>
       </>
     );

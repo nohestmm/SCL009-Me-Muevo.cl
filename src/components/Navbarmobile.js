@@ -12,7 +12,7 @@ class Navbarmobile extends React.Component {
       <Navbar bg="light" expand="lg">
         <Navbar.Brand><Link to="/">
           <img src= {logo}
-            width="90" height="70" className="d-inline-block align-top" alt="">
+           className="d-inline-block align-top" alt="">
           </img></Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
