@@ -28,7 +28,6 @@
     height: 320px;
 }
 
-.navbar-nav {
-    padding-right: .5rem;
-    padding-left: .5rem;
+.navbar-nav a {
+    padding: 0.1rem 0.4rem;
 }

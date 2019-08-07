@@ -2,14 +2,22 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import firstbanner from '../image/firstbanner.png'
 import secondbanner from '../image/secondbanner.png'
+import { Row , Col, Container } from 'react-bootstrap';
 
 
 const TemplateNews = () => {
     
         return (
                
-<>
-    <h1>Noticias Recientes</h1>
+
+<section>
+<Container>
+<Row> 
+        
+  <Col> 
+
+    <h1>Noticias Recientes</h1> 
+    
     <Carousel>
   <Carousel.Item>
     <img
@@ -34,8 +42,11 @@ const TemplateNews = () => {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-    </>
-
+</Col>
+</Row>
+</Container>
+</section>
+  
         )
     
 }

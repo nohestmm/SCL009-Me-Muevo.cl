@@ -18,7 +18,7 @@ class Navbarmobile extends React.Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav ><Link to="/quienes-somos">Quiénes Somos</Link></Nav>
+            <Nav ><Link to="/quienes-somos">Qué es la A.R.?</Link></Nav>
             <Nav ><Link to="/">Artritis Remautoide</Link></Nav>
             <Nav ><Link to="/ley-ricarte-soto">Ley Ricarte Soto</Link></Nav>
             <Nav ><Link to="/ley-ricarte-soto">Ges/Auge</Link></Nav>

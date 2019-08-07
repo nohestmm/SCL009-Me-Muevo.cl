@@ -1,18 +1,21 @@
 import React from 'react'
 import '../views/components.css';
-import { Row , Col } from 'react-bootstrap';
+import { Row , Col, Container } from 'react-bootstrap';
 
 
 const TemplateHome = () => {
     return (
-        <div>
+        
          
-           
+           <section>
+            <Container>
+            <Row> 
+                <Col>
             <h1>Bienvenido a Me muevo</h1>
-            <section>
-              <Row> 
-            
-                  <Col xs = {12} md ={6}>  
+            </Col>
+            </Row>
+            <Row> 
+                <Col xs = {12} md ={6}>  
                 <iframe className="iframe-video"
                     src="https://www.youtube.com/embed/t485RIj4-og" 
                     frameBorder="0" 
@@ -23,7 +26,7 @@ const TemplateHome = () => {
                     picture-in-picture" 
                     allowFullScreen title="video"/>
             </Col>
-
+         
             <Col  xs = {12} md ={6}>
                 <div>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
@@ -40,9 +43,12 @@ const TemplateHome = () => {
                 </div>
                 </Col>
                </Row>
-            </section>
-        </div>
+               </Container>
+               </section>
+           
+       
     )
 }
+
 
 export default TemplateHome;
