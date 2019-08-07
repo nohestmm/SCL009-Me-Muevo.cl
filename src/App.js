@@ -7,7 +7,7 @@ import TemplateNews from './views/TemplateNews';
 import TemplateRegister from './views/TemplateRegister';
 import TemplateWhoWeAre from './views/TemplateWhoWeAre';
 import TemplateHome from './views/TemplateHome';
-
+import { Row , Col } from 'react-bootstrap';
 import './App.css';
 // import Navbarmobile from './components/Navbarmobile';
 import Menudesktop from './components/Menudesktop'
@@ -27,8 +27,9 @@ class App extends Component {
                 <Menudesktop/>
                  </div>
                
+          
+              <Col  xs={12} md={9}>
             
-            <div>
               <Switch>
                 <Route exact path='/' component={TemplateHome} />
                 <Route exact path='/artritis-reumatoide' component={TemplateInfo} />
@@ -38,8 +39,9 @@ class App extends Component {
                 <Route exact path='/quienes-somos' component={TemplateWhoWeAre} />
               </Switch>
 
-            </div>
-
+          
+            </Col>
+         
 
          
 

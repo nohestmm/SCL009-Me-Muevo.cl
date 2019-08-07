@@ -7,7 +7,7 @@ class Menudesktop extends React.Component {
     render() {
         return (
                   <Row> 
-            <Col xs={12} md={4}>
+            <Col xs={12} md={3}>
 
 <ListGroup>
 <ListGroup.Item><Link to="/"><img src= {logo}
