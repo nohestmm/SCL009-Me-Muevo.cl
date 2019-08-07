@@ -17,8 +17,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   render() {
+
     return (
       <>
+
 
         <BrowserRouter>
         
@@ -31,6 +33,8 @@ class App extends Component {
           
               <Col xs= {12} md ={9}>
             
+
+       
               <Switch>
                 <Route exact path='/' component={TemplateHome} />
                 <Route exact path='/artritis-reumatoide' component={TemplateInfo} />

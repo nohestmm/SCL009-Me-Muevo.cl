@@ -6,8 +6,7 @@ import { Row , Col } from 'react-bootstrap';
 const TemplateHome = () => {
     return (
         <div>
-         
-           
+
             <h1>Bienvenido a Me muevo</h1>
             <section>
               <Row> 
@@ -41,6 +40,7 @@ const TemplateHome = () => {
                 </Col>
                </Row>
             </section>
+
         </div>
     )
 }
