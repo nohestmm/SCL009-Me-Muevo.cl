@@ -1,60 +1,42 @@
-import React, {Component} from 'react';
-import data from './data.json'
-import './components.css'
+import React from 'react';
+import { Carousel } from 'react-bootstrap';
+import firstbanner from '../image/firstbanner.png'
+import secondbanner from '../image/secondbanner.png'
 
-class TemplateNews extends Component{
-constructor(){
-super();
-this.state ={
-        dataNews : data.Noticias
-}
-}
 
-render(){
-        const news = this.state.dataNews.map((element, index)=>{
-      
-                return (  
-                        // <div>
-                        //         <ul>
-                        //                 <li>
-                        //                         <h5><a href={element.url}>{element.title}</a></h5>
-                        //                         <img src={element.img} className="img-fluid" alt="me muevo"></img>
-                        //                         <h6>{element.date} - {element.type}</h6>
-                        //                         <p>{element.description}</p>
-                        //                 </li>
-                        //         </ul>
-                        // </div>
+const TemplateNews = () => {
+    
+        return (
                
-                <div className="card mt-3">
-                  {/* <img src={element.img} className="card-img-top" alt="me muevo"></img> */}
-                  <div className="card-body">
-                  <h5 className="card-title"><a className="card-link" href={element.url}>{element.title}</a></h5>
-                  <h6 className="card-subtitle mb-2 text-muted">{element.date} - {element.type}</h6>
-                  <p className="card-text">{element.description}</p>
-            </div>
-          </div>
-              
+<>
+    <h1>Noticias Recientes</h1>
+    <Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={firstbanner}
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={secondbanner}
+      alt="Third slide"
+    />
+    <Carousel.Caption>
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
+    </>
 
-                 
-          
-                )
-          })
-          return (
-                  <div className="container">
-                          <div className="row">{news}</div>
-                          
-                  </div>
-          )
-}
-}
-
-// const TemplateNews = () => {
-   
-//         return (
-// <div>
-//     <h1>Noticias Recientes</h1>
-// </div>
-//         )
+        )
     
 // }
 
