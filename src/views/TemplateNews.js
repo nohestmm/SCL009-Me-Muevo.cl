@@ -37,7 +37,6 @@ const TemplateNews = () => {
     </>
 
         )
-    
-// }
+    }
 
 export default TemplateNews;

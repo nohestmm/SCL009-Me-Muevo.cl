@@ -7,10 +7,10 @@ import TemplateNews from './views/TemplateNews';
 import TemplateRegister from './views/TemplateRegister';
 import TemplateWhoWeAre from './views/TemplateWhoWeAre';
 import TemplateHome from './views/TemplateHome';
-import { Row , Col } from 'react-bootstrap';
+//import { Row , Col } from 'react-bootstrap';
 import './App.css';
 import Navbarmobile from './components/Navbarmobile';
-import Menudesktop from './components/Menudesktop'
+// import Menudesktop from './components/Menudesktop'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -25,13 +25,13 @@ class App extends Component {
         <BrowserRouter>
         
                   <div >
-                    <Row>
+                    {/* <Row> */}
                   <Navbarmobile/>
-                <Menudesktop/>
+                {/* <Menudesktop/> */}
                
                
           
-              <Col xs= {12} md ={9}>
+              {/* <Col xs= {12} md ={9}> */}
             
 
        
@@ -45,8 +45,8 @@ class App extends Component {
               </Switch>
 
           
-            </Col> 
-            </Row>
+            {/* </Col> 
+            </Row> */}
            </div>
 
         
