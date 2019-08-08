@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 .App {
     height: 100vh;
 }
@@ -50,13 +51,43 @@
     display: flex;
 }
 
-.iframe-video {
-    width: 100%;
-    height: 320px;
-}
 
 .navbar-nav {
     padding-right: .5rem;
     padding-left: .5rem;
 }
 
+.bgNav{
+    background-color: #00519F;
+ }
+ .navbar-nav a{
+    color: white;
+ }
+
+.imgInfo{
+    width: 100%;
+    max-width: 1095px;
+    max-height:499px;
+    position: absolute;
+
+ }
+ .imgAr{
+    width: 100%;
+    /* max-width: 800px;
+    max-height:380px;
+    margin: 10px; */
+ }
+ .ricarteSotoIngfografia {
+    width: 100%;
+    max-width: 800px;
+    max-height: 900px;
+}
+.sectionricarteSoto {
+    text-align: center;
+}
+.text-home{
+    position: absolute;
+    top: 395px;
+    /* margin-left: 3px; */
+    text-align: center;
+}

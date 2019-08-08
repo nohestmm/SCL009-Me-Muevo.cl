@@ -1,42 +1,44 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
-import firstbanner from '../image/firstbanner.png'
-import secondbanner from '../image/secondbanner.png'
+import React, {Component} from 'react';
+import {Card} from 'react-bootstrap'
+import data from './data.json';
+import './components.css'
 
+class TemplateNews extends Component{
+constructor(){
+super();
+this.state ={
+        dataNews : data.Noticias
+}
+}
 
-const TemplateNews = () => {
-    
-        return (
-               
-<>
-    <h1>Noticias Recientes</h1>
-    <Carousel>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={firstbanner}
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={secondbanner}
-      alt="Third slide"
-    />
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
-    </>
-
-        )
-    }
-
+render(){
+        const news = this.state.dataNews.map((element, index)=>{
+      
+                return (  
+                  <Card className="my-cards" style={{ width: '18rem' }}>
+                  <Card.Img variant="top" src={element.img} />
+                  <Card.Body>
+                    <Card.Title><a className="card-link" href={element.url}>{element.title}</a></Card.Title>
+                    <Card.Text>
+                      {element.description}
+                    </Card.Text>
+             
+                  </Card.Body>
+                </Card>
+  
+          
+                )
+          })
+          return (
+                  <div className="container">
+                          <div className="cards-news row">
+                            {news}
+                            {/* <div className="col-12">{news}</div> */}
+                          
+                          </div>
+                          
+                </div>
+          )
+}
+}
 export default TemplateNews;

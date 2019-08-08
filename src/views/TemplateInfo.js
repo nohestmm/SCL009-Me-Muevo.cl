@@ -1,29 +1,28 @@
 import React from 'react';
-
+import '../views/components.css';
+import { Row , Col, Container } from 'react-bootstrap';
+import infoDesktop from '../image/infoDesktop.png';
 const TemplateInfo = () => {
     
         return (
-<div>
-    <h1>Información Disease </h1>
-</div>
+                <div>
+                <section>
+                <Container>
+                  <Row>
+                  <Col>
+<h5>Artritis Reumatoide</h5>
+                    </Col>
+                  <Col xs = {12} md ={12}>
+                       <img src={infoDesktop} className="imgAr" alt="Infografía de la Enfermedad"/>
+                  </Col>
+                   {/* <Col  xs = {12} md ={12}>
+                        <img src={secondimgInfo} className="imgInfo" alt="Infografía de la Enfermedad"/>
+                  </Col> */}
+                   </Row>
+                   </Container>
+                </section>
+            </div>
         )
     
 }
-/*testing react.createRef()*/
-// class TemplateInfo extends Component{
-//     constructor(){
-//         super()
-//         this.text = React.createRef()
-//     }
-
-//     render(){
-//         return(
-//             <div>
-//     <h1 ref={this.text}> Info disease </h1>
-// </div>
-//         )
-//     }
-// }
-
-
 export default TemplateInfo;
