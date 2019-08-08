@@ -10,7 +10,7 @@ const TemplateInfo = () => {
                 <Container>
                   <Row>
                   <Col>
-<h5>Artritis Reumatoide</h5>
+<h4>Artritis Reumatoide</h4>
                     </Col>
                   <Col xs = {12} md ={12}>
                        <img src={infoDesktop} className="imgAr" alt="Infografía de la Enfermedad"/>
