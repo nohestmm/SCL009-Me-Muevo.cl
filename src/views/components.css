@@ -2,7 +2,8 @@
     margin-left: 10px;
 } */
 .register{
-    display: table-column;
+    background-color: var(--color-greyO); 
+    border-radius: 1em; 
     justify-content: center;
 }
 .btn {

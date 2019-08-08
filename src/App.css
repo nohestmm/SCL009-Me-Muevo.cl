@@ -2,6 +2,13 @@
 .App {
     height: 100vh;
 }
+:root {
+    --color-blue: #00519F;
+    --color-grey: #F1F3F4;
+    --color-greyO: #D3D4D5;
+    --color-white: #ffffff;
+    --color-black: #000000;
+  }
 
 .btn {
     background-color: #00519F;
@@ -73,14 +80,13 @@
  }
  .imgAr{
     width: 100%;
-    /* max-width: 800px;
-    max-height:380px;
-    margin: 10px; */
+
  }
  .ricarteSotoIngfografia {
     width: 100%;
     max-width: 800px;
     max-height: 900px;
+    border-radius: 1em;
 }
 .sectionricarteSoto {
     text-align: center;
@@ -88,6 +94,19 @@
 .text-home{
     position: absolute;
     top: 395px;
-    /* margin-left: 3px; */
+
     text-align: center;
+}
+​
+.marginInitial{
+    margin-top: 1.5em;
+}
+​
+.bgDiv{
+    background-color: var(--color-grey); 
+    border-radius: 1em; 
+}
+​
+.phone{
+    color: var(--color-blue)
 }

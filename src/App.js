@@ -7,7 +7,7 @@ import TemplateLaw from './views/TemplateLaw';
 import TemplateGes from './views/TemplateGes'
 import TemplateNews from './views/TemplateNews';
 import TemplateRegister from './views/TemplateRegister';
-// import TemplateWhoWeAre from './views/TemplateWhoWeAre';
+import TemplateWhoWeAre from './views/TemplateWhoWeAre';
 import TemplateHome from './views/TemplateHome';
 import './App.css';
 import Navbarmobile from './components/Navbarmobile';
@@ -30,7 +30,7 @@ class App extends Component {
                <h3 className="mt-3">Fundación por la Artritis Reumatoide</h3>
              </div>
              <div className="col-sm-3 col-md-3 col-lg-3" style = {{top:'14px'}}>
-               <a className="" href="telf: +56900000000"><h4 className="mt-3">Contacto: +56 9 0000 0000</h4></a>
+               <a className="" href="telf: +56900000000"><h4 className="mt-3 phone">Contacto: +56 9 0000 0000</h4></a>
              </div>
            </header>
            <Navbarmobile />
@@ -42,7 +42,7 @@ class App extends Component {
              <Route exact path='/ges' component={TemplateGes} />
              <Route exact path='/noticias' component={TemplateNews} />
              <Route exact path='/registro' component={TemplateRegister} />
-             {/* <Route exact path='/quienes-somos' component={TemplateWhoWeAre} /> */}
+             <Route exact path='/quienes-somos' component={TemplateWhoWeAre} />
            </Switch>
            {/* </Col> */}
            {/* </Row> */}

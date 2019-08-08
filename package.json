@@ -37,6 +37,7 @@
     },
     "homepage": "http://nohestmm.github.io/SCL009-Me-Muevo.cl",
     "devDependencies": {
+        "firebase": "^6.3.4",
         "gh-pages": "^2.0.1"
     }
 }
