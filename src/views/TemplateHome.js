@@ -6,7 +6,9 @@ import CarouselHome from '../components/CarouselHome';
 
 const TemplateHome = () => {
     return (
-            <section>
+          <section>
+            <h1>Bienvenido a Me muevo</h1>
+          
             <Container>
             <Row> 
                 <Col>
@@ -45,7 +47,9 @@ const TemplateHome = () => {
                 </Col>
                </Row>
                </Container>
-               </section>       
- )
+            </section>
+
+        
+    )
 }
 export default TemplateHome;

@@ -1,18 +1,45 @@
-/* .App {
+.App {
     height: 100vh;
-} */
+}
 
-.sidebar {
-    background-color: #f2f2f2;
+.btn {
+    background-color: #00519F;
+    width: 140px;
+    height: 40px;
+    padding: 0px
+}
+
+.icon{
+    width: 40px; 
+    height: 40px;
+    margin: 5px
+}
+.pos-f-t{
+    height: 100%;
+}
+
+.rrss{
+    margin:4px;
+    display: flex;
+    justify-content: center;
 }
 
 .content {
-    background-color: #f4f4f4;
+    background-color: #ffffff;
+    padding: 5px;
 }
 
-.ĺist-group {
-    padding: 0;
-    background-color: #f2f2f2;
+
+    
+.list-sidebar .list-group-item-action {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #f8f9fa;
+    border: 1px solid rgba(0,0,0,.125);
+    color: black;
+    border-radius: 0px;
 }
 
 .parraghaf {
@@ -28,6 +55,7 @@
     height: 320px;
 }
 
+<<<<<<< HEAD
 .navbar-nav a {
     color: blue;
 }
@@ -41,3 +69,10 @@
 .sectionricarteSoto {
     text-align: center;
 }
+=======
+.navbar-nav {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+>>>>>>> 0846eeff6f1a6ba06f61b479a7e5f5f3a492e52a
