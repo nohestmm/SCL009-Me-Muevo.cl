@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f6dbc1c257556788314877ab1116318",
+    "revision": "5f55d0c47a8f794ecd36ec4dcdaffdb0",
     "url": "/SCL009-Me-Muevo.cl/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SCL009-Me-Muevo.cl/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "697f3da0ab6f9871a2e7",
+    "revision": "37a79e1ac23c3e8cb13d",
     "url": "/SCL009-Me-Muevo.cl/static/css/main.f149bbd3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SCL009-Me-Muevo.cl/static/js/2.7e534ac9.chunk.js"
   },
   {
-    "revision": "697f3da0ab6f9871a2e7",
-    "url": "/SCL009-Me-Muevo.cl/static/js/main.b371d256.chunk.js"
+    "revision": "37a79e1ac23c3e8cb13d",
+    "url": "/SCL009-Me-Muevo.cl/static/js/main.74f60c60.chunk.js"
   },
   {
     "revision": "31fea0f9a6e8b5905e1a",
