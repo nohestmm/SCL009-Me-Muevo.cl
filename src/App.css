@@ -9,17 +9,18 @@
     padding: 0px
 }
 
-.icon{
-    width: 40px; 
+.icon {
+    width: 40px;
     height: 40px;
     margin: 5px
 }
-.pos-f-t{
+
+.pos-f-t {
     height: 100%;
 }
 
-.rrss{
-    margin:4px;
+.rrss {
+    margin: 4px;
     display: flex;
     justify-content: center;
 }
@@ -29,15 +30,13 @@
     padding: 5px;
 }
 
-
-    
 .list-sidebar .list-group-item-action {
     position: relative;
     display: block;
     padding: .75rem 1.25rem;
     margin-bottom: -1px;
     background-color: #f8f9fa;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0, 0, 0, .125);
     color: black;
     border-radius: 0px;
 }
@@ -55,24 +54,7 @@
     height: 320px;
 }
 
-<<<<<<< HEAD
 .navbar-nav a {
-    color: blue;
-}
-
-.ricarteSotoIngfografia {
-    width: 100%;
-    max-width: 800px;
-    max-height: 900px;
-}
-
-.sectionricarteSoto {
-    text-align: center;
-}
-=======
-.navbar-nav {
     padding-right: .5rem;
     padding-left: .5rem;
 }
-
->>>>>>> 0846eeff6f1a6ba06f61b479a7e5f5f3a492e52a

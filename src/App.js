@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { Row , Col } from 'react-bootstrap';
 import { BrowserRouter} from 'react-router-dom';
-// /*Templates && Components*/
+/*Templates && Components*/
 // import TemplateInfo from './views/TemplateInfo';
 // import TemplateLaw from './views/TemplateLaw';
 // import TemplateNews from './views/TemplateNews';
@@ -18,23 +19,6 @@ class App extends Component {
   render() {
 
     return (
-<<<<<<< HEAD
-      <BrowserRouter>
-       
-          <Navbarmobile home ={"/"}  ar ={"/artritis-reumatoide"}/>
-      
-       
-        {/* <Switch>
-          <Route exact path='/' component={TemplateHome} />
-          <Route exact path='/artritis-reumatoide' component={TemplateInfo} />
-          <Route exact path='/ley-ricarte-soto' component={TemplateLaw} />
-          <Route exact path='/noticias' component={TemplateNews} />
-          <Route exact path='/registro' component={TemplateRegister} />
-          <Route exact path='/quienes-somos' component={TemplateWhoWeAre} />
-        </Switch> */}
-      </BrowserRouter>
-    )
-=======
       <>
 
 
@@ -43,7 +27,7 @@ class App extends Component {
                   <div >
                     <Row>
                   <Navbarmobile/>
-                <Menudesktop/>
+              
                
                
           
@@ -51,14 +35,14 @@ class App extends Component {
             
 
        
-              <Switch>
+              {/* <Switch>
                 <Route exact path='/' component={TemplateHome} />
                 <Route exact path='/artritis-reumatoide' component={TemplateInfo} />
                 <Route exact path='/ley-ricarte-soto' component={TemplateLaw} />
                 <Route exact path='/noticias' component={TemplateNews} />
                 <Route exact path='/registro' component={TemplateRegister} />
                 <Route exact path='/quienes-somos' component={TemplateWhoWeAre} />
-              </Switch>
+              </Switch> */}
 
           
             </Col> 
@@ -70,7 +54,6 @@ class App extends Component {
       </>
     );
 
->>>>>>> 0846eeff6f1a6ba06f61b479a7e5f5f3a492e52a
   }
 }
 
