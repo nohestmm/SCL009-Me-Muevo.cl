@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e81fc0a22a17f314c71ed15d97d2aeb",
+    "revision": "4f6dbc1c257556788314877ab1116318",
     "url": "/SCL009-Me-Muevo.cl/index.html"
   },
   {
-    "revision": "9c1ad8ce972a00a31282",
+    "revision": "7c209438bdf306ec5a06",
     "url": "/SCL009-Me-Muevo.cl/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "40c53c216e4251621f86",
-    "url": "/SCL009-Me-Muevo.cl/static/css/main.48c0ae63.chunk.css"
+    "revision": "697f3da0ab6f9871a2e7",
+    "url": "/SCL009-Me-Muevo.cl/static/css/main.f149bbd3.chunk.css"
   },
   {
-    "revision": "9c1ad8ce972a00a31282",
-    "url": "/SCL009-Me-Muevo.cl/static/js/2.a8d649fe.chunk.js"
+    "revision": "7c209438bdf306ec5a06",
+    "url": "/SCL009-Me-Muevo.cl/static/js/2.7e534ac9.chunk.js"
   },
   {
-    "revision": "40c53c216e4251621f86",
-    "url": "/SCL009-Me-Muevo.cl/static/js/main.79f4d310.chunk.js"
+    "revision": "697f3da0ab6f9871a2e7",
+    "url": "/SCL009-Me-Muevo.cl/static/js/main.b371d256.chunk.js"
   },
   {
     "revision": "31fea0f9a6e8b5905e1a",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b2a9fc85a07e6b8f40fa69290ee6b9af",
     "url": "/SCL009-Me-Muevo.cl/static/media/firstbanner.b2a9fc85.png"
+  },
+  {
+    "revision": "5493cd88150470976ae30635691aef51",
+    "url": "/SCL009-Me-Muevo.cl/static/media/infoDesktop.5493cd88.png"
+  },
+  {
+    "revision": "bfbd3c2c6292372412b604edcb26f866",
+    "url": "/SCL009-Me-Muevo.cl/static/media/infografiaGes.bfbd3c2c.jpg"
   },
   {
     "revision": "9e115ce8650bd6dcab1c367c37037bd8",
