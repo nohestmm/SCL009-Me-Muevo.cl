@@ -1,22 +1,29 @@
 import React from 'react'
 import '../views/components.css';
-
-
+import { Row, Col, Container } from 'react-bootstrap';
+import imgHands from '../image/imgHands.jpg';
+// import secondimgInfo from '../image/secondimgInfo.jpg';
 const TemplateHome = () => {
     return (
         <div>
-            <h1>Bienvenido a Memuevo</h1>
-            {/* <section className="infoTemplateHome">
-                <div className = "col-sm-12 col-md-8">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/t485RIj4-og" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="video"></iframe>
-                </div>
-                <div className= "col-sm-12 col-md-4">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam laboriosam minus architecto nulla id consequatur eos porro culpa odio possimus? Iusto doloremque doloribus hic accusamus cumque libero repellat sit maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam et atque adipisci, aliquid molestias ipsum libero debitis quos harum alias dolorum culpa optio consequatur veniam commodi vero? Odio, fugiat deleniti!
-                        </p>
-                </div>
-            </section> */}
+            <section>
+                <Container>
+                    <Row>
+          
+                        <Col xs={12} md={12}>
+
+                            <img src={imgHands} className="imgInfo" alt="Infografía de la Enfermedad" />
+                            <h3 className="text-home">La Artritis Reumatoide es una enfermedad autoinmune que
+           afecta las articulaciones provocando hinchazón, dolor y rigidez.
+Sin embargo, este diagnóstico no impide que vivas una vida plena.</h3>
+                        </Col>
+                        {/* <Col  xs = {12} md ={12}>
+                   <img src={secondimgInfo} className="imgInfo" alt="Infografía de la Enfermedad"/>
+             </Col> */}
+                    </Row>
+                </Container>
+            </section>
         </div>
     )
 }
-
 export default TemplateHome;
