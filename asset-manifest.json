@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/SCL009-Me-Muevo.cl/static/css/main.f149bbd3.chunk.css",
-    "main.js": "/SCL009-Me-Muevo.cl/static/js/main.74f60c60.chunk.js",
-    "main.js.map": "/SCL009-Me-Muevo.cl/static/js/main.74f60c60.chunk.js.map",
+    "main.css": "/SCL009-Me-Muevo.cl/static/css/main.a1dabef6.chunk.css",
+    "main.js": "/SCL009-Me-Muevo.cl/static/js/main.32d2b934.chunk.js",
+    "main.js.map": "/SCL009-Me-Muevo.cl/static/js/main.32d2b934.chunk.js.map",
     "runtime~main.js": "/SCL009-Me-Muevo.cl/static/js/runtime~main.83210c55.js",
     "runtime~main.js.map": "/SCL009-Me-Muevo.cl/static/js/runtime~main.83210c55.js.map",
     "static/css/2.266e55a5.chunk.css": "/SCL009-Me-Muevo.cl/static/css/2.266e55a5.chunk.css",
     "static/js/2.7e534ac9.chunk.js": "/SCL009-Me-Muevo.cl/static/js/2.7e534ac9.chunk.js",
     "static/js/2.7e534ac9.chunk.js.map": "/SCL009-Me-Muevo.cl/static/js/2.7e534ac9.chunk.js.map",
     "index.html": "/SCL009-Me-Muevo.cl/index.html",
-    "precache-manifest.854086115ee41c5ea7d5c655b1fe71f9.js": "/SCL009-Me-Muevo.cl/precache-manifest.854086115ee41c5ea7d5c655b1fe71f9.js",
+    "precache-manifest.794b3007ab473e14cbf5b446ac3301dd.js": "/SCL009-Me-Muevo.cl/precache-manifest.794b3007ab473e14cbf5b446ac3301dd.js",
     "service-worker.js": "/SCL009-Me-Muevo.cl/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/SCL009-Me-Muevo.cl/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.f149bbd3.chunk.css.map": "/SCL009-Me-Muevo.cl/static/css/main.f149bbd3.chunk.css.map",
-    "static/media/firstbanner.png": "/SCL009-Me-Muevo.cl/static/media/firstbanner.b2a9fc85.png",
+    "static/css/main.a1dabef6.chunk.css.map": "/SCL009-Me-Muevo.cl/static/css/main.a1dabef6.chunk.css.map",
+    "static/media/firstCarousel.jpg": "/SCL009-Me-Muevo.cl/static/media/firstCarousel.99cb3290.jpg",
     "static/media/infoDesktop.png": "/SCL009-Me-Muevo.cl/static/media/infoDesktop.5493cd88.png",
     "static/media/infografiaGes.jpg": "/SCL009-Me-Muevo.cl/static/media/infografiaGes.bfbd3c2c.jpg",
     "static/media/infografiaRicarteSoto.jpg": "/SCL009-Me-Muevo.cl/static/media/infografiaRicarteSoto.9e115ce8.jpg",
     "static/media/logo.png": "/SCL009-Me-Muevo.cl/static/media/logo.04913cac.png",
-    "static/media/secondbanner.png": "/SCL009-Me-Muevo.cl/static/media/secondbanner.748594fa.png"
+    "static/media/secondCarousel.jpg": "/SCL009-Me-Muevo.cl/static/media/secondCarousel.80e48bfc.jpg"
   }
 }
