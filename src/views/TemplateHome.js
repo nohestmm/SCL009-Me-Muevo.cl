@@ -12,6 +12,7 @@ const TemplateHome = () => {
                 <Col>
             <h1>Bienvenido a Me muevo</h1>
                 </Col>
+                
             </Row>
             <Row> 
                 <Col xs = {12} md ={12}>  
