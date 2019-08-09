@@ -1,0 +1,15 @@
+.p {
+    margin-left: 10px;
+}
+
+.register {
+    display: table-column;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #00519F;
+    width: 140px;
+    height: 40px;
+    padding: 0px
+}

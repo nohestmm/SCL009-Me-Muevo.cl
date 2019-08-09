@@ -1,11 +1,30 @@
 import React from 'react';
+import { Row , Col, Container } from 'react-bootstrap';
+import infografiaRicarteSoto from '../image/infografiaRicarteSoto.jpg'
 
 const TemplateLaw = () => {
     
         return (
-<div>
-    <h1>Ley Ricarte SOTO</h1>
-</div>
+
+
+<section className= "sectionricarteSoto">
+       <Container>
+<Row>
+<Col>
+<img className = "ricarteSotoIngfografia" src={infografiaRicarteSoto} alt=""/>
+
+</Col>
+
+</Row>
+
+       </Container>
+
+        
+</section>
+
+
+
+
         )
     
 }

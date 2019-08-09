@@ -1,22 +1,21 @@
 import React from 'react'
 import '../views/components.css';
 import { Row , Col, Container } from 'react-bootstrap';
+import CarouselHome from '../components/CarouselHome';
 
 
 const TemplateHome = () => {
     return (
-        
-         
-           <section>
+            <section>
             <Container>
             <Row> 
                 <Col>
             <h1>Bienvenido a Me muevo</h1>
-            </Col>
+                </Col>
             </Row>
             <Row> 
-                <Col xs = {12} md ={6}>  
-                <iframe className="iframe-video"
+                <Col xs = {12} md ={12}>  
+                {/* <iframe className="iframe-video"
                     src="https://www.youtube.com/embed/t485RIj4-og" 
                     frameBorder="0" 
                     allow="accelerometer; 
@@ -24,9 +23,10 @@ const TemplateHome = () => {
                     encrypted-media; 
                     gyroscope; 
                     picture-in-picture" 
-                    allowFullScreen title="video"/>
+                    allowFullScreen title="video"/> */}
+
+                    <CarouselHome/>
             </Col>
-         
             <Col  xs = {12} md ={6}>
                 <div>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
@@ -44,11 +44,7 @@ const TemplateHome = () => {
                 </Col>
                </Row>
                </Container>
-               </section>
-           
-       
-    )
+               </section>       
+ )
 }
-
-
 export default TemplateHome;

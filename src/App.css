@@ -29,5 +29,15 @@
 }
 
 .navbar-nav a {
-    padding: 0.1rem 0.4rem;
+    color: blue;
+}
+
+.ricarteSotoIngfografia {
+    width: 100%;
+    max-width: 800px;
+    max-height: 900px;
+}
+
+.sectionricarteSoto {
+    text-align: center;
 }
