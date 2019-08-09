@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/SCL009-Me-Muevo.cl/static/css/main.22226463.chunk.css",
-    "main.js": "/SCL009-Me-Muevo.cl/static/js/main.12f44e26.chunk.js",
-    "main.js.map": "/SCL009-Me-Muevo.cl/static/js/main.12f44e26.chunk.js.map",
+    "main.css": "/SCL009-Me-Muevo.cl/static/css/main.48c0ae63.chunk.css",
+    "main.js": "/SCL009-Me-Muevo.cl/static/js/main.79f4d310.chunk.js",
+    "main.js.map": "/SCL009-Me-Muevo.cl/static/js/main.79f4d310.chunk.js.map",
     "runtime~main.js": "/SCL009-Me-Muevo.cl/static/js/runtime~main.83210c55.js",
     "runtime~main.js.map": "/SCL009-Me-Muevo.cl/static/js/runtime~main.83210c55.js.map",
     "static/css/2.266e55a5.chunk.css": "/SCL009-Me-Muevo.cl/static/css/2.266e55a5.chunk.css",
-    "static/js/2.4bcea2fc.chunk.js": "/SCL009-Me-Muevo.cl/static/js/2.4bcea2fc.chunk.js",
-    "static/js/2.4bcea2fc.chunk.js.map": "/SCL009-Me-Muevo.cl/static/js/2.4bcea2fc.chunk.js.map",
+    "static/js/2.a8d649fe.chunk.js": "/SCL009-Me-Muevo.cl/static/js/2.a8d649fe.chunk.js",
+    "static/js/2.a8d649fe.chunk.js.map": "/SCL009-Me-Muevo.cl/static/js/2.a8d649fe.chunk.js.map",
     "index.html": "/SCL009-Me-Muevo.cl/index.html",
-    "precache-manifest.42bb3553f8f5875574244195ebca3aa9.js": "/SCL009-Me-Muevo.cl/precache-manifest.42bb3553f8f5875574244195ebca3aa9.js",
+    "precache-manifest.2dbde33fb8dbd88dd4aad40446996dac.js": "/SCL009-Me-Muevo.cl/precache-manifest.2dbde33fb8dbd88dd4aad40446996dac.js",
     "service-worker.js": "/SCL009-Me-Muevo.cl/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/SCL009-Me-Muevo.cl/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.22226463.chunk.css.map": "/SCL009-Me-Muevo.cl/static/css/main.22226463.chunk.css.map"
+    "static/css/main.48c0ae63.chunk.css.map": "/SCL009-Me-Muevo.cl/static/css/main.48c0ae63.chunk.css.map",
+    "static/media/firstbanner.png": "/SCL009-Me-Muevo.cl/static/media/firstbanner.b2a9fc85.png",
+    "static/media/infografiaRicarteSoto.jpg": "/SCL009-Me-Muevo.cl/static/media/infografiaRicarteSoto.9e115ce8.jpg",
+    "static/media/logo.png": "/SCL009-Me-Muevo.cl/static/media/logo.04913cac.png",
+    "static/media/secondbanner.png": "/SCL009-Me-Muevo.cl/static/media/secondbanner.748594fa.png"
   }
 }

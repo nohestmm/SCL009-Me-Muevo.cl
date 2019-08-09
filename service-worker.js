@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SCL009-Me-Muevo.cl/precache-manifest.42bb3553f8f5875574244195ebca3aa9.js"
+  "/SCL009-Me-Muevo.cl/precache-manifest.2dbde33fb8dbd88dd4aad40446996dac.js"
 );
 
 self.addEventListener('message', (event) => {
