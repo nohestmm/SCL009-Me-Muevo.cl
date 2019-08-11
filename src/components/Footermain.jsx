@@ -1,42 +1,48 @@
 import React from "react";
-import { Row, Col} from 'react-bootstrap';
+import { Row, Col, Container} from 'react-bootstrap';
 
 const Footermain= () => {
  return (
-   <Row>
-         <Col xs={12} md={12}>
-           <footer className="bgNav">
-             <div class="bgNav navbar-nav">
+   <footer className="footermain">
+   <Container>
+     <Row>
+        
+           <Col xs ={12} md={6}>
+            
                <h2>
-                 <a href="http://www.memuevo.cl" title="Fundación Me Muevo"></a>
+                 <a href="https://www.memuevo.cl" alt="Fundación Me Muevo"></a>
                </h2>
-               <div class="rrss">
-                 <p class="rrss">
+         
+                 <p className="rrss">
                    RUT: 65.088.095-1
                  </p>
-                 <p class="rrss">
+               
+                 <p className="rrss">
                    Contactanos: <a href="tel: +56987433259" title="Teléfono">+56987433259</a>
                  </p>
-                 <p class="rrss">
+                 <p className="rrss">
                    Providencia, Santiago de Chile
                  </p>
-                 <a class="rrss" href="mailto:comunicaciones@memuevo.cl" title="Enviar correo">comunicaciones@memuevo.cl</a>
-               </div>
-               <p class="rrss">
+  </Col>
+                 <Col xs ={12} md={6}>
+                 <a className="rrss" href="mailto:comunicaciones@memuevo.cl" title="Enviar correo">comunicaciones@memuevo.cl</a>
+           
+               <p className="rrss">
                    <strong>© Fundación Me Muevo 2014 </strong>
                </p>
-               <div className="rrss">
-                   <a href="http://www.facebook.com/memuevo.cl" title="Facebook" class="fb" id="fb"
+               
+                   <a href="https://www.facebook.com/memuevo.cl" title="Facebook" className="fb" id="fb"
                      target="black"></a>
-                   <a href="http://www.twitter.com/memuevoCl" title="Twitter" class="tw" id="tw"
+                   <a href="https://www.twitter.com/memuevoCl" title="Twitter" className="tw" id="tw"
                      target="black"></a>
-                   <a href="http://www.youtube.com/channel/UCy19QdUUFMCDh0HARVzvvwg" title="Youtube" class="yt" id="yt"
+                   <a href="https://www.youtube.com/channel/UCy19QdUUFMCDh0HARVzvvwg" title="Youtube" className="yt" id="yt"
                      target="black"></a>
-               </div>
-             </div>
-           </footer>
-         </Col>
-       </Row>
+              
+        </Col>
+         </Row>
+       </Container>
+       </footer>
+
 );
 }
 export default Footermain;

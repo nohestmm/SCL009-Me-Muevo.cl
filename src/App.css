@@ -35,7 +35,7 @@
 }
 
 .content {
-    background-color: #ffffff;
+    background-color: var(--color-white);
     padding: 5px;
 }
 
@@ -44,7 +44,7 @@
     display: block;
     padding: .75rem 1.25rem;
     margin-bottom: -1px;
-    background-color: #f8f9fa;
+    background-color: var(--color-white);
     border: 1px solid rgba(0, 0, 0, .125);
     color: black;
     border-radius: 0px;
@@ -59,16 +59,16 @@
 }
 
 .navbar-nav {
-    padding-right: .5rem;
-    padding-left: .5rem;
+    padding-left: 2.5rem;
 }
 
 .bgNav {
-    background-color: var(--color-blue);
+    background-color: var(--color-greyO);
 }
 
 .navbar-nav a {
-    color: white;
+    color: var(--color-black);
+    font-size: 14px;
 }
 
 .imgInfo {
@@ -123,4 +123,9 @@
 .contactPhone {
     font-size: 20px;
     margin-top: 20px;
+}
+
+.footermain {
+    background-color: var(--color-grey);
+    width: 100%;
 }

@@ -19,8 +19,8 @@ class Navbarmobile extends React.Component {
             <Nav ><Link to="/noticias">Noticias y Eventos</Link></Nav>
           </Nav>
           <Form inline>
-           <FormControl type="text" className="mr-sm-2" />
-           <Button variant="light">Buscar</Button>
+           <FormControl type="text" className="mr-sm-2" placeholder="Buscar"/>
+        
          </Form>
         </Navbar.Collapse>
       </Navbar>
