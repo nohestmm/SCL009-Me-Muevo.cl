@@ -19,14 +19,15 @@ class App extends Component {
   render() {
 
     return (
-      <>
+    
 
 
         <BrowserRouter>
         
                   <div >
                     <Row>
-                  <Navbarmobile/>
+                  <Navbarmobile home ={"/"}  ar ={"/artritis-reumatoide"}/>
+                  
               
                
                
@@ -51,7 +52,7 @@ class App extends Component {
 
         
         </BrowserRouter>
-      </>
+      
     );
 
   }

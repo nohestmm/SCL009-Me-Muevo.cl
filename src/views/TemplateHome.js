@@ -6,10 +6,10 @@ import CarouselHome from '../components/CarouselHome';
 
 const TemplateHome = () => {
     return (
-          <section>
+          <section>    <Container>
             <h1>Bienvenido a Me muevo</h1>
           
-            <Container>
+        
             <Row> 
                 <Col>
             <h1>Bienvenido a Me muevo</h1>

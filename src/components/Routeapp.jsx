@@ -13,7 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-class App extends Component {
+class Routeapp extends Component {
   constructor(props){
   super(props)
 this.state ={
@@ -49,7 +49,7 @@ this.state ={
         <Switch>
           
             
-             <Route exact path={this.props.clickone} component={TemplateHome} />
+          <Route exact path={this.props.clickone} component={TemplateHome} />
           <Route exact path={this.props.clicktwo} component={TemplateInfo} /> 
             
           
@@ -61,4 +61,4 @@ this.state ={
 }
 
 
-export default App;
+export default Routeapp;
