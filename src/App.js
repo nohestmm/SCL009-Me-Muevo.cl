@@ -52,9 +52,9 @@ class App extends Component {
             <Route exact path='/quienes-somos' component={TemplateWhoWeAre} />
           </Switch>
          
-        
+           <Footermain/> 
       </BrowserRouter>
-     <Footermain/>
+ 
      </>
    );
   }

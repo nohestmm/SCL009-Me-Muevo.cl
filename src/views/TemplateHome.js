@@ -5,9 +5,10 @@ import CarouselHome from '../components/CarouselHome'
 const TemplateHome = () => {
     return (
                    <section className={"containerCarousel"}>
+
                       <CarouselHome/>  
-                      
-                                 
+
+
             </section>  
     )
 }

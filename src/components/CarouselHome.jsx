@@ -16,7 +16,6 @@ class CarouselHome extends React.Component {
   alt="First slide"
 /></Link>
 <Carousel.Caption>
- >
 </Carousel.Caption>
 </Carousel.Item>
 <Carousel.Item>
