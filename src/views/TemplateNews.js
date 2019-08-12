@@ -12,9 +12,11 @@ this.state ={
 }
 
 render(){
+  
         const news = this.state.dataNews.map((element, index)=>{
       
                 return (  
+                  
                   <Card className="my-cards" style={{ width: '18rem' }}>
                   <Card.Img variant="top" src={element.img} />
                   <Card.Body>

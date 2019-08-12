@@ -22,15 +22,15 @@ class App extends Component {
 
 
           <header>
-            <Container>
+            <Container className= "container-header">
               <Row>
-              <Col xs ={12} md ={3}>
+              <Col xs ={12} md ={2}>
               <Link to="/"> 
                  <img src={logo} className="logo"
                   alt="Logo de la Fundación">
                  </img></Link>
                  </Col>
-              <Col xs ={12} md ={6}>
+              <Col xs ={12} md ={7}>
                   <h3 className="nameFundation">Fundación por la Artritis Reumatoide</h3>
                 </Col>
 
