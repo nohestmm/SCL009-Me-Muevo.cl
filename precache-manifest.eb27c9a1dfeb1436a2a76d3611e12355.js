@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d65b46595674868b6944e24f23bdcec8",
+    "revision": "604e0fcfa7570db5cff50519f120b209",
     "url": "/SCL009-Me-Muevo.cl/index.html"
   },
   {
-    "revision": "9bf2617301b3eea9a75a",
+    "revision": "d29472d3ee1a1bc76392",
     "url": "/SCL009-Me-Muevo.cl/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "fdc3661997854f97806c",
-    "url": "/SCL009-Me-Muevo.cl/static/css/main.84ae07df.chunk.css"
+    "revision": "a7204a526960a2c892d9",
+    "url": "/SCL009-Me-Muevo.cl/static/css/main.c5b0b4f1.chunk.css"
   },
   {
-    "revision": "9bf2617301b3eea9a75a",
-    "url": "/SCL009-Me-Muevo.cl/static/js/2.0355cca6.chunk.js"
+    "revision": "d29472d3ee1a1bc76392",
+    "url": "/SCL009-Me-Muevo.cl/static/js/2.ff4dd85b.chunk.js"
   },
   {
-    "revision": "fdc3661997854f97806c",
-    "url": "/SCL009-Me-Muevo.cl/static/js/main.46023ae6.chunk.js"
+    "revision": "a7204a526960a2c892d9",
+    "url": "/SCL009-Me-Muevo.cl/static/js/main.3f0ab9a3.chunk.js"
   },
   {
     "revision": "31fea0f9a6e8b5905e1a",
